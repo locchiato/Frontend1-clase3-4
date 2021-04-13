@@ -43,7 +43,7 @@ body {
 
 header {
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: 100%;
     background-repeat: no-repeat;
     background-image: url('../img/lemon-pie.png');
