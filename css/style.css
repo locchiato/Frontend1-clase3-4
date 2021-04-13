@@ -11,10 +11,10 @@ li, p {
 }
 
 #logo {
-    background-size:10%;
-    background-image: url('../img/logo-front.png');
-    background-repeat: no-repeat;
+    background-size: contain;
     background-color: white;
+    background-repeat: no-repeat;
+    background-image: url('../img/logo-front.png');
 }
 
 h1 {
@@ -22,8 +22,8 @@ h1 {
 }
 
 h2 {
-    display: inline-block;
     margin: 0 auto;
+    display: inline-block;
 }
 
 h3 {
@@ -32,9 +32,9 @@ h3 {
 }
 
 nav li a {
-    text-decoration: none;
     color: black;
     font-family: serif;
+    text-decoration: none;
 }
 
 body {
@@ -42,24 +42,24 @@ body {
 }
 
 header {
-    background-position: 100%;
-    background-image: url('../img/lemon-pie.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../img/lemon-pie.png');
 }
 
 .lemon-pie {
-    background-image: linear-gradient(#00000025,#00000099);
-    padding-top: 150px;
     color:white;
+    padding-top: 150px;
+    background-image: linear-gradient(#00000025,#00000099);
 }
 
 nav ul {
+    margin: 0;
+    padding-left: 0;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 0;
-    margin: 0;
 }
 
 main {
