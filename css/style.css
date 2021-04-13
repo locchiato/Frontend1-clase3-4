@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
 *{
@@ -6,20 +5,31 @@
     font-family: sans-serif;
 }
 
-li, p {
+h1 {
+    font-size: 49px;
+}
+
+li, p, h1 {
     font-family: 'Inter', sans-serif;
 }
 
-#logo {
-    background-size: contain;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-image: url('../img/logo-front.png');
+p {
+    padding-bottom: 2px;
 }
 
-h1 {
-    font-size: 45px;
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 50px;
 }
+
+nav li a {
+    color: black;
+    font-family: Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
 
 h2 {
     margin: 0 auto;
@@ -31,48 +41,51 @@ h3 {
     font-style:  italic;
 }
 
-nav li a {
-    color: black;
-    font-family: serif;
-    text-decoration: none;
-}
-
 body {
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 header {
-    width: 100%;
-    background-size: contain;
-    background-position: 100%;
+    background-size: cover;
+    background-position: left bottom;
     background-repeat: no-repeat;
     background-image: url('../img/lemon-pie.png');
 }
 
-.lemon-pie {
-    color:white;
-    padding-top: 150px;
-    background-image: linear-gradient(#00000025,#00000099);
+
+#logo {
+    height: 50px;
+    background-size: 93px 33px;
+    background-repeat: no-repeat;
+    background-image: url('../img/logo-front.png');
 }
 
-nav ul {
-    margin: 0;
-    padding-left: 0;
-    padding-top: 50px;
-    padding-bottom: 50px;
+#logo, nav {
+    background-color: white;
+}
+
+.lemon-pie {
+    color:white;
+    padding: 160px 30px 0 0;
+    background-image: linear-gradient(#33333320,#11111199);
 }
 
 main {
-    padding: 10px 0 80px 0;
+    padding: 10px 0 70px 0;
 }
 
-#mer-it {
-    font-size: 17px;
-    color: darkorange;
+main *{
+    color: rgba(0,0,0,0.75);
+    font-weight: bold;
 }
 
 #inst {
     padding-left: 20px;
+}
+
+#merengue {
+    font-size: 17px;
+    color: darkorange;
 }
 
 footer {
