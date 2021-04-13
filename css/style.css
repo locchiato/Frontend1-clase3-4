@@ -67,7 +67,7 @@ header {
 .lemon-pie {
     color:white;
     padding: 160px 30px 0 0;
-    background-image: linear-gradient(#33333320,#11111199);
+    background-image: linear-gradient(#00000010,#00000060);
 }
 
 main {
@@ -84,7 +84,6 @@ main *{
 }
 
 #merengue {
-    font-size: 17px;
     color: darkorange;
 }
 
